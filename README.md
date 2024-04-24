@@ -28,9 +28,9 @@ You can try the live demo [here](https://yogeesh-s.github.io/Weather-App/).
   
 ### Screenshots
 
-1. ![Screenshot 1](/Screenshots/screenshot1.png)
-2. ![Screenshot 2](/Screenshots/screenshot2.png)
-3. ![Screenshot 3](/Screenshots/screenshot3.png)
+![Screenshot 1](/Screenshots/screenshot1.png)
+![Screenshot 2](/Screenshots/screenshot2.png)
+![Screenshot 3](/Screenshots/screenshot3.png)
 
 ## How to Use
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <h2 class="title">Weather App</h2>
+            <div class="search-container">
+                <input type="text" id="city" placeholder="Enter location" class="search-input">
+                <button id="search"  class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        
+        <div class="weather-report">
+            <div class="location" id="location">
+                Bangalore
+            </div>
+            <div class="temperature-container">
+                <div class="temperature-data">
+                    <div class="temperature">
+                        <div id="temp"></div>
+                    </div>
+                    
+                </div>
+                <div class="temperature-data">
+                    <div class="icon">
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                    <div class="text">
+                        <div id="feels_like"></div>
+                        <div class="text-info">Feels Like</div>
+                    </div> 
+                </div>
+                <div class="temperature-data">
+                    <div class="icon">
+                        <i class="fa-solid fa-temperature-empty"></i> 
+                    </div>
+                    <div class="text">
+                        <div id="min_temp"></div>
+                        <div class="text-info">Min Temp</div>
+                    </div> 
+                </div>
+                <div class="temperature-data">
+                    <div class="icon">
+                        <i class="fa-solid fa-temperature-three-quarters"></i>
+                    </div>
+                    <div class="text">
+                        <div id="max_temp"></div>
+                        <div class="text-info">Max Temp</div>
+                    </div> 
+                </div>
+                
+            </div>
+            <div class="other-data-container">
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <div class="text">
+                        <div id="humidity"></div>
+                        <div class="text-info">Humidity</div>
+                    </div> 
+                </div>
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <div class="text">
+                        <div id="cloud_pct"></div>
+                        <div class="text-info">Cloud PCT</div>
+                    </div> 
+                </div>
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <div class="text">
+                        <div id="wind_speed"></div>
+                        <div class="text-info">Wind Speed</div>
+                    </div> 
+                </div>
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-solid fa-fan"></i>
+                    </div>
+                    <div class="text">
+                        <div id="wind_degrees"></div>
+                        <div class="text-info">Wind Degree</div>
+                    </div> 
+                </div>
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-regular fa-sun"></i>
+                    </div>
+                    <div class="text">
+                        <div id="sunrise"></div>
+                        <div class="text-info">Sunrise</div>
+                    </div> 
+                </div>
+                <div class="data">
+                    <div class="icon">
+                        <i class="fa-solid fa-sun-plant-wilt"></i>
+                    </div>
+                    <div class="text">
+                        <div id="sunset"></div>
+                        <div class="text-info">Sunset</div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="error-msg">
+            Oops! It seems like the city you entered is not valid. Please double-check the spelling and try again.
+
+           <img src="robot-404.svg" width="300px">
+        </div>
+        <h2>Made with ❤️️ by Yogeesh S</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

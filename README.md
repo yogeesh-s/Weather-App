@@ -24,7 +24,7 @@ You can try the live demo [here](https://yogeesh-s.github.io/Weather-App/).
 
 ### Video Demo
 
-[![Weather App Video Demo](/Video/Demo-Thumbnail)](/Video/Demo.mp4)
+[![Weather App Video Demo](/Video/Demo-Thumbnail.png)](/Video/Demo.mp4)
   
 ### Screenshots
 
